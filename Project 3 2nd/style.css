@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-text{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+.hw{
+    height: 152px;
+    display: flex;
+    align-items: center 
+}
+
+footer{
+    height: 918px;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    
+}
+
+.credits{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+a{
+    color: inherit;
+}
+
+.nfactorial{
+    color: #081E34;
+    margin-top: 42px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.empty{
+    height: 778px;
+}
+
+
+.strelka{
+    width: 24px;
+    height: 24px;
+}
+
+.avatar{
+    width: 64px;
+    height: 64px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    margin-left:16px;
+    justify-content: space-between;
+}
+
+.author-name{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.author-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.author-info-text{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.profile{
+    display: flex;
+    margin-top: 96px;
+}
+
+.links-photo{
+    width: 18px;
+    height: auto;
+}
+
+.links{
+    margin-left: 500px;
+}
+
+.text{
+    margin-top: 70px;
+}
+
+.top-text{
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.mini-text{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.big-photo{
+    width: 1120px;
+    height: 480px;
+    margin-top: 70px;
+    object-fit: cover;
+}
+
+.info{
+    margin-top: 70px;
+}
+
+.info-text{
+    margin-top: 24px;
+}
+
+.subheader{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.info-text{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.likes-photo{
+    width: 18px;
+    height: 18px;
+}
+
+.comments-photo{
+    width: 18px;
+    height: 18px;
+}
+
+.mini-panel{
+    display:flex;
+    align-items: center;
+    
+    gap: 14px;
+}
+
+.likes{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.5;
+    display: flex;
+    gap: 3px;
+}
+
+.comments{
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.5;
+    display: flex;
+    gap: 3px;
+}
+
+.save{
+    width: 18px;
+    height: 18px;
+}
+
+.panel{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: 1px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+    width: 100%;
+    margin-top: 40px;
+    opacity: 0.1;
+}
+
+.strelka{
+    cursor: pointer;
+}
