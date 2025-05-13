@@ -170,7 +170,7 @@ hr {
 }
 
 footer{
-    height: 918px;
+    height: 200px;
 }
 
 .footer-text{
@@ -199,7 +199,7 @@ a{
 }
 
 .empty{
-    height: 778px;
+    height: 100px;
 }
 
 
@@ -215,4 +215,38 @@ justify-content: space-between;
 
 .title.clickable:hover {
     text-decoration: none; /* Убираем подчеркивание, чтобы добавить акцент на интерактивность */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+          width: 700px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 500px;
+    }
+
+    .box{
+        position: relative;
+        margin-left: 100px; 
+    }
+
+    .title{
+        width: 500px;
+    }
+
+    .title-text-2{
+        width: 500px;
+    }
+
+    .post{
+        flex-direction: column;
+    }
+
+    .under-panel{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

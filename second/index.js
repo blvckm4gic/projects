@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const strelka = document.querySelector('.strelka')
 strelka.addEventListener('click', ()=>
 {
-    window.location.href = `http://localhost:5500/Project%203/index.html`;
+    window.location.href = `../project3/index.html`;
 })
 
 

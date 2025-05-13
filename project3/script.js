@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const title = postElement.querySelector('.title.clickable')
         title.addEventListener('click', () => {
             console.log('Title clicked!');
-            window.location.href = `http://localhost:5500/Project%203%202nd/index.html?post=${index}`;
+            window.location.href = `../second/index.html?post=${index}&imageUrl=${encodeURIComponent(imageUrl)}`;
         })
       });
     } catch (error) {
